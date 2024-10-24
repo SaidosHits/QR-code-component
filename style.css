@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  font-family: "Outfit", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--c-wgray);
+}
+
+:root {
+  --c-darkblue:#1F314F;
+  --c-gray:#68778D;
+  --c-wgray:#D5E1EF;
+  --c-white:#FFFFFF;
+  --f-preset1:22px;
+  --f-preset2:clamp(0.682rem, 0.57rem + 0.657vi, 1rem) ;
+}
+
+.card_container {
+  width: 320px;
+  height: 499px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  padding: 16px;
+  background-color: var(--c-white);
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0476518);
+  border-radius: 20px;
+}
+.card_container img {
+  width: 100%;
+}
+
+.card_text {
+  display: grid;
+  text-align: center;
+  padding-top: 24px;
+  gap: 16px;
+  padding: 15px;
+}
+.card_text h1 {
+  font-size: var(--f-preset1);
+}
+.card_text p {
+  color: var(--c-gray);
+}/*# sourceMappingURL=style.css.map */
